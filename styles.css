@@ -6,7 +6,7 @@ html[data-theme="light"] {
   --text-color: rgba(0, 0, 0, 0.9);
   --header-color: rgb(168, 168, 168);
   --index-header-color: rgb(50, 50, 50);
-  --hover-color: rgb(152, 166, 209);
+  --hover-color: rgb(141, 81, 179);
   --link-color: rgb(9, 57, 202);
   --img-border-color: rgb(222, 222, 222);
   --button-color: #e1e1e1;
@@ -22,7 +22,7 @@ html[data-theme="dark"] {
   --text-color: #b6bfcf;
   --header-color: #b6bfcfa9;
   --index-header-color: #b6bfcf;
-  --hover-color: rgb(82, 94, 128);
+  --hover-color: rgb(141, 81, 179);
   --link-color: #989fc1;
   --img-border-color: #b6bfcf;
   --button-color: #24405b;
@@ -40,7 +40,7 @@ html[data-theme="dark"] {
     --text-color: rgba(0, 0, 0, 0.9);
     --header-color: rgb(168, 168, 168);
     --index-header-color: rgb(50, 50, 50);
-    --hover-color: rgb(152, 166, 209);
+    --hover-color: rgb(141, 81, 179);
     --link-color: rgb(9, 57, 202);
     --img-border-color: rgb(222, 222, 222);
     --button-color: #e1e1e1;
@@ -56,7 +56,7 @@ html[data-theme="dark"] {
     --text-color: #b6bfcf;
     --header-color: #b6bfcfa9;
     --index-header-color: #b6bfcf;
-    --hover-color: rgb(82, 94, 128);
+    --hover-color: rgb(141, 81, 179);
     --link-color: #989fc1;
     --img-border-color: #b6bfcf;
     --button-color: #24405b;
