@@ -10,7 +10,7 @@ html[data-theme="light"] {
   --link-color: rgb(9, 57, 202);
   --img-border-color: rgb(222, 222, 222);
   --button-color: #e1e1e1;
-  --button-hover-color: rgb(206, 206, 206);
+  --button-hover-color: #be84ce;
   --button-active-color: rgb(101, 101, 101);
   --table-border-color: #dddddd;
   --image-opacity: 100%;
@@ -26,7 +26,7 @@ html[data-theme="dark"] {
   --link-color: #989fc1;
   --img-border-color: #b6bfcf;
   --button-color: #24405b;
-  --button-hover-color: #6e869e;
+  --button-hover-color: #be84ce;
   --button-active-color: #b6bfcf;
   --table-border-color: #223648;
   --image-opacity: 85%;
@@ -44,7 +44,7 @@ html[data-theme="dark"] {
     --link-color: rgb(9, 57, 202);
     --img-border-color: rgb(222, 222, 222);
     --button-color: #e1e1e1;
-    --button-hover-color: rgb(206, 206, 206);
+    --button-hover-color: #be84ce;
     --button-active-color: rgb(101, 101, 101);
     --table-border-color: #dddddd;
     --image-opacity: 100%;
@@ -60,7 +60,7 @@ html[data-theme="dark"] {
     --link-color: #989fc1;
     --img-border-color: #b6bfcf;
     --button-color: #24405b;
-    --button-hover-color: #6e869e;
+    --button-hover-color: #be84ce;
     --button-active-color: #b6bfcf;
     --table-border-color: #223648;
     --image-opacity: 85%;
