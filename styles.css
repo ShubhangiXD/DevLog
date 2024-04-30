@@ -10,8 +10,8 @@ html[data-theme="light"] {
   --link-color: rgb(9, 57, 202);
   --img-border-color: rgb(222, 222, 222);
   --button-color: #e1e1e1;
-  --button-hover-color: #be84ce;
-  --button-active-color: rgb(101, 101, 101);
+  --button-hover-color: rgb(141, 81, 179);
+  --button-active-color: rgb(141, 81, 179);
   --table-border-color: #dddddd;
   --image-opacity: 100%;
   --background-img: url("./images/indexbggrey.png");
@@ -44,8 +44,8 @@ html[data-theme="dark"] {
     --link-color: rgb(9, 57, 202);
     --img-border-color: rgb(222, 222, 222);
     --button-color: #e1e1e1;
-    --button-hover-color: #be84ce;
-    --button-active-color: rgb(101, 101, 101);
+    --button-hover-color: rgb(141, 81, 179);
+    --button-active-color: rgb(141, 81, 179);
     --table-border-color: #dddddd;
     --image-opacity: 100%;
     --background-img: url("./images/indexbggrey.png");
@@ -86,7 +86,7 @@ button.theme:hover {
 /* FOR INDEX.HTML */
 
 div.content {
-  margin-top: 3.5vw;
+  margin-top: 2vw;
   margin-left: 1vh;
   position: absolute;
   left: 51%;
@@ -111,6 +111,7 @@ p.index {
   font-family: "printveticaregular", Helvetica, Arial;
   font-style: bold;
   font-size: 1.05rem;
+  color: #be84ce;
 }
 
 p.indexcopy {
@@ -153,7 +154,8 @@ body.copy {
 .header {
   color: var(--header-color);
   font-family: "printveticaregular", Helvetica, Arial;
-  font-size: 1.05rem;
+  font-size: 2rem;
+  color: #be84ce;
 }
 
 .readtime {
