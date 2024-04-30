@@ -4,7 +4,7 @@ html,
 html[data-theme="light"] {
   --background-color: rgb(242, 242, 242);
   --text-color: rgba(0, 0, 0, 0.9);
-  --header-color: rgb(168, 168, 168);
+  --header-color: rgb(141, 81, 179);
   --index-header-color: rgb(50, 50, 50);
   --hover-color: rgb(141, 81, 179);
   --link-color: rgb(9, 57, 202);
@@ -20,7 +20,7 @@ html[data-theme="light"] {
 html[data-theme="dark"] {
   --background-color: #061627;
   --text-color: #b6bfcf;
-  --header-color: #b6bfcfa9;
+  --header-color: rgb(141, 81, 179);
   --index-header-color: #b6bfcf;
   --hover-color: rgb(141, 81, 179);
   --link-color: #989fc1;
@@ -38,7 +38,7 @@ html[data-theme="dark"] {
   html[data-theme="light"] {
     --background-color: rgb(242, 242, 242);
     --text-color: rgba(0, 0, 0, 0.9);
-    --header-color: rgb(168, 168, 168);
+    --header-color: rgb(141, 81, 179);
     --index-header-color: rgb(50, 50, 50);
     --hover-color: rgb(141, 81, 179);
     --link-color: rgb(9, 57, 202);
@@ -54,7 +54,7 @@ html[data-theme="dark"] {
   html[data-theme="dark"] {
     --background-color: #061627;
     --text-color: #b6bfcf;
-    --header-color: #b6bfcfa9;
+    --header-color: rgb(141, 81, 179);
     --index-header-color: #b6bfcf;
     --hover-color: rgb(141, 81, 179);
     --link-color: #989fc1;
