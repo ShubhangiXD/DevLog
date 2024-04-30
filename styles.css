@@ -26,8 +26,8 @@ html[data-theme="dark"] {
   --link-color: #989fc1;
   --img-border-color: #b6bfcf;
   --button-color: #24405b;
-  --button-hover-color: #be84ce;
-  --button-active-color: #b6bfcf;
+  --button-hover-color: rgb(141, 81, 179);
+  --button-active-color: rgb(141, 81, 179);
   --table-border-color: #223648;
   --image-opacity: 85%;
   --background-img: url("./images/indexbgdark.png");
@@ -60,8 +60,8 @@ html[data-theme="dark"] {
     --link-color: #989fc1;
     --img-border-color: #b6bfcf;
     --button-color: #24405b;
-    --button-hover-color: #be84ce;
-    --button-active-color: #b6bfcf;
+    --button-hover-color: rgb(141, 81, 179);
+    --button-active-color: rgb(141, 81, 179);
     --table-border-color: #223648;
     --image-opacity: 85%;
     --background-img: url("./images/indexbgdark.png");
