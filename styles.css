@@ -34,6 +34,7 @@ html[data-theme="dark"] {
 }
 
 @media (prefers-color-scheme: light) {
+
   html,
   html[data-theme="light"] {
     --background-color: rgb(242, 242, 242);
@@ -110,7 +111,7 @@ p.index {
   color: var(--header-color);
   font-family: "printveticaregular", Helvetica, Arial;
   font-style: bold;
-  font-size: 1.05rem;
+  font-size: 1.5rem;
   color: #be84ce;
 }
 
@@ -372,4 +373,28 @@ button.btn.active {
     url("./fonts/ACaslonPro-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+}
+
+.wrapper-draggable {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  max-width: 250px;
+  width: 100%;
+  background: none;
+  border-radius: 10px;
+  transform: translate(-70%, -50%);
+}
+
+.wrapper-draggable img {
+  font-size: 23px;
+  font-weight: 500;
+  border-bottom: none;
+  mix-blend-mode: multiply;
+  filter: grayscale(100%);
+}
+
+.wrapper-draggable img.active {
+  cursor: move;
+  user-select: none;
 }
