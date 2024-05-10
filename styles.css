@@ -2,7 +2,7 @@
 
 html,
 html[data-theme="light"] {
-  --background-color: rgb(242, 242, 242);
+  --background-color: #f2f2f2;
   --text-color: rgba(0, 0, 0, 0.9);
   --header-color: rgb(52, 46, 55);
   --index-header-color: rgb(50, 50, 50);
@@ -111,27 +111,30 @@ p.index {
   color: var(--header-color);
   font-family: "printveticaregular", Helvetica, Arial;
   font-style: bold;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #be84ce;
+  margin-bottom: 2%;
 }
 
 p.indexcopy {
   /* index copy */
-  font-family: "Adobe Caslon Pro", "Times New Roman", Times, serif;
+  font-family: "printveticaregular", Helvetica, Arial;
   letter-spacing: 0.1px;
   color: var(--text-color);
   line-height: 50%;
   margin-top: 0%;
-  margin-bottom: 2.5em;
-  font-size: 1.35rem;
+  margin-bottom: 1.5em;
+  font-style: normal;
+  opacity: 80%;
+  font-size: 1.2rem;
 }
 
 a.index {
   /* index works/notes links */
   color: var(--text-color);
-  font-family: "Adobe Caslon Pro", "Times New Roman", Times, serif;
+  font-family: "printveticaregular", Helvetica, Arial;
   line-height: 50%;
-  font-size: 1.35rem;
+  font-size: 1.1rem;
 }
 
 /* HTML STYLING */
