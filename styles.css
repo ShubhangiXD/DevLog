@@ -129,6 +129,17 @@ p.indexcopy {
   font-size: 1.2rem;
 }
 
+p.introduction{
+  font-size: 5rem;
+  font-family: "printveticaregular", Helvetica, Arial;
+  margin-top: 80%;
+}
+
+p.time{
+  font-family: "printveticaregular", Helvetica, Arial;
+  text-align: center;
+}
+
 a.index {
   /* index works/notes links */
   color: var(--text-color);
@@ -378,26 +389,14 @@ button.btn.active {
   font-style: normal;
 }
 
-.wrapper-draggable {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  max-width: 250px;
+img.introduction {
+  position: fixed;
+  max-width: 500px;
   width: 100%;
   background: none;
-  border-radius: 10px;
-  transform: translate(-70%, -50%);
-}
-
-.wrapper-draggable img {
-  font-size: 23px;
-  font-weight: 500;
-  border-bottom: none;
-  mix-blend-mode: multiply;
+  border-radius: 3px;
+  left: 55%;
   filter: grayscale(100%);
+  margin-top: -1.5%;
 }
 
-.wrapper-draggable img.active {
-  cursor: move;
-  user-select: none;
-}
