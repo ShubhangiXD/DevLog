@@ -1,0 +1,28 @@
+.card-project {
+    /* Add shadows to create the "card" effect */
+    transition: 0.3s;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card-project:hover {
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0.2, 0.2);
+}
+
+p.card-project.container-project {
+    font-family: "printveticaregular", Helvetica, Arial;
+}
+
+@font-face {
+    font-family: "printveticaregular";
+    src: url("./fonts/printvetica-webfont.woff2") format("woff2"),
+        url("./fonts/printvetica-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "sitrus";
+    src: url("../fonts/DxSitrus-Expanded.otf") format("otf");
+}

@@ -412,6 +412,13 @@ button.btn.active {
   font-style: normal;
 }
 
+@font-face {
+  font-family: "sitrus";
+  src: url("./fonts/DxSitrus-Expanded.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 img.imgintro {
   position: relative;
   width: 500px;
@@ -437,4 +444,12 @@ img.imgintro {
   to {
       transform: rotate(360deg);
   }
+}
+
+img.normal {
+  max-height: 200px;
+}
+
+.proj {
+  border: 1px solid black;
 }
