@@ -2,10 +2,11 @@
 
 html,
 html[data-theme="light"] {
-  --background-color: #f2f2f2;
+  --background-color: rgb(242, 242, 242);
   --text-color: rgba(0, 0, 0, 0.9);
   --header-color: rgb(52, 46, 55);
   --index-header-color: rgb(50, 50, 50);
+  --index-header-color-disabled: rgb(185, 181, 181);
   --hover-color: rgb(141, 81, 179);
   --link-color: rgb(9, 57, 202);
   --img-border-color: rgb(222, 222, 222);
@@ -69,6 +70,11 @@ html[data-theme="dark"] {
   }
 }
 
+html, body {
+  cursor: url('./resources/cursor.ico'), default;
+  overflow-x: hidden;
+}
+
 button.theme {
   font-size: 2vh;
   color: var(--text-color);
@@ -89,7 +95,7 @@ button.theme:hover {
 div.content {
   margin-top: 2vw;
   margin-left: 1vh;
-  position: absolute;
+  position: relative;
   left: 51%;
   transform: translateX(-50%);
   width: 95%;
@@ -129,10 +135,18 @@ p.indexcopy {
   font-size: 1.2rem;
 }
 
-p.introduction{
-  font-size: 5rem;
+p.imgintro{
   font-family: "printveticaregular", Helvetica, Arial;
-  margin-top: 80%;
+  position: relative;
+  font-size: 5rem;
+  margin-top: 45vh;
+}
+
+p.introsub{
+  font-family: "printveticaregular", Helvetica, Arial;
+  opacity: 50%;
+  font-size: smaller;
+  margin-top: -1.5vh;
 }
 
 p.time{
@@ -211,6 +225,15 @@ a.main {
   font-family: "printveticaregular", Helvetica, Arial;
   font-size: 1.05rem;
   margin-right: 1.5em;
+}
+
+a.main-disabled {
+  /* general nav links */
+  color: var(--index-header-color-disabled);
+  font-family: "printveticaregular", Helvetica, Arial;
+  font-size: 1.05rem;
+  margin-right: 1.5em;
+  pointer-events: none;
 }
 
 a.inline {
@@ -389,14 +412,29 @@ button.btn.active {
   font-style: normal;
 }
 
-img.introduction {
-  position: fixed;
-  max-width: 500px;
-  width: 100%;
+img.imgintro {
+  position: relative;
+  width: 500px;
   background: none;
   border-radius: 3px;
-  left: 55%;
   filter: grayscale(100%);
-  margin-top: -1.5%;
+  margin-left: 55%;
+  margin-top: -2%;
 }
 
+.rotate {
+  animation: rotation 5s infinite linear;
+}
+
+.rotate:hover {
+  transform: scale(1.5);
+}
+
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}

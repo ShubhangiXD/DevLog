@@ -32,57 +32,79 @@
             }
         }
     </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
 </head>
 
 <body>
-    <div class="indexbg"></div>
+    <script src="./gameoflife/sketch.js"></script>
+    <script src="./gameoflife/grid.js"></script>
     <p class="time" id="time">hhmmss</p>
     <p class="time" style="margin-top:-1rem; opacity: 80%; color: #be84ce;">kolkata</p>
     <script src="clock.js"></script>
     <hr style="width:75%; text-align:centre;">
-    <div class="content">
-        <div class="row">
-            <div class="column">
-                <img class="introduction" src="./resources/p4.jpg" alt="Me">
-                <p class="introduction" style="margin-bottom: 7.5rem;">I am Shubhangi(XD).</p>
-                <p class="index">who</p>
-                <p class="indexcopy">shubhangi dutta</p>
-
-                <p class="index">what</p>
-                <p class="indexcopy">design // cs // gaming</p>
-
-                <p class="index">where</p>
-                <p class="indexcopy">india</p>
-
-                <p class="index">how</p>
-                <p class="indexcopy">wdym how</p>
-
-                <p class="index">currently</p>
-                <p class="indexcopy">struggling</p>
-                <!-- <script src="script.js"></script> -->
+    <div id="wrapper" style="position:absolute; top:15%; left:0; width:100%; height:100%;">
+        <div class="content">
+            <div class="row">
+                <div class="column">
+                    <p class="introsub">[This is Conway's Game of Life, seemed pretty apt for someone interested in game dev nah? Try clicking and dragging on it :p]</p>
+                    <p class="imgintro">I am Shubhangi(XD).</p>
+                </div>
+                <!-- <div class="column">
+                    <p></p>
+                </div> -->
+                <div class="column" style="width: fit-content;">
+                    <img class="imgintro" src="./resources/p4.jpg" alt="Me">
+                </div>
             </div>
+        </div>
+        <div class="content" style="position: relative; top: -5%">
+            <div class="row">
+                <div class="column">
+                    <!-- <img src="./resources/flower-icon 1.png" style="float: inline-start; margin-top: 40%" class="rotate"> -->
 
-            <!-- spacer-->
+                    <p class="index">who</p>
+                    <p class="indexcopy">shubhangi dutta</p>
 
-            <div class="column">
-                <p></p>
-            </div>
+                    <p class="index">what</p>
+                    <p class="indexcopy">design // cs // gaming</p>
 
-            <div class="column">
-                <p class="index" style="margin-bottom: 2%; margin-top: 157%">recent notes</p>
-                <p class="indexcopy" style="margin-bottom: 29vh; line-height: 140%;">
-                    <a class="index" href="./pages/notes/300424_makingblog.html"><i>(1) making the blog</i></a><br>
-                    <a class="index" href="./pages/notes/020524_portfolio1.html"><i>(2) portfolio building</i></a>
-                </p>
+                    <p class="index">where</p>
+                    <p class="indexcopy">india</p>
 
-                <div class="container" style="margin-bottom: 20px">
-                    <a class="main" style="font-size:1.05rem; margin-right: 2em;" href="./pages/about.html">☀&#xFE0E;
-                        about</a>
-                    <a class="main" style="font-size:1.05rem; margin-right: 2em;" href="./pages/web_log.html">✦&#xFE0E;
-                        web log</a>
-                    <a class="main" style="font-size:1.05rem;" href="./pages/notes.html">❉&#xFE0E; notes</a>
-                    <p style="position: fixed;font-family:printveticaregular; opacity: 70%; font-size:smaller;">{in development since 1st May, 2024}</p>
-                    <!-- <button class="theme" id="theme-toggle" onclick="modeSwitcher()"></a> -->
+                    <p class="index">how</p>
+                    <p class="indexcopy">wdym how</p>
+
+                    <p class="index">currently</p>
+                    <p class="indexcopy">struggling</p>
+                    <!-- <script src="script.js"></script> -->
+                </div>
+
+                <!-- spacer-->
+
+                <div class="column">
+                    <p></p>
+                </div>
+
+                <div class="column">
+                    <p class="index" style="margin-bottom: 2%;">recent notes</p>
+                    <p class="indexcopy" style="margin-bottom: 29vh; line-height: 140%;">
+                        <a class="index" href="./pages/notes/300424_makingblog.html"><i>(1) making the blog</i></a><br>
+                        <a class="index" href="./pages/notes/020524_portfolio1.html"><i>(2) portfolio building</i></a>
+                    </p>
+
+                    <div class="container" style="margin-bottom: 20px">
+                        <a class="main" style="font-size:1.05rem; margin-right: 2em;"
+                            href="./pages/about.html">☀&#xFE0E;
+                            about</a>
+                        <a class="main-disabled" style="font-size:1.05rem;" href="./pages/projects.html">✦&#xFE0E;
+                            projects</a>
+                        <a class="main" style="font-size:1.05rem;" href="./pages/notes.html">❉&#xFE0E; notes</a>
+
+                        <p style="position: fixed;font-family:printveticaregular; opacity: 70%; font-size:smaller;">{in
+                            development since 1st May, 2024}</p>
+                        <!-- <button class="theme" id="theme-toggle" onclick="modeSwitcher()"></a> -->
+                    </div>
                 </div>
             </div>
         </div>
