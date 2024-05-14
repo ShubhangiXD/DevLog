@@ -3,7 +3,7 @@ let grid; let play = true;
 let hueValue = 290;
 
 function setup() {
-    createCanvas(displayWidth, displayHeight - 160);
+    createCanvas(displayWidth, displayHeight);
     colorMode(HSB);
     cols = width / size;
     rows = height / size;
