@@ -122,12 +122,25 @@ p.index {
   margin-bottom: 2%;
 }
 
+span.index {
+  color: var(--header-color);
+  font-family: "printveticaregular", Helvetica, Arial;
+}
+
+span.index:hover {
+  color: var(--header-color);
+  font-family: "printveticaregular", Helvetica, Arial;
+  color: #be84ce;
+  font-style: italic;
+}
+
 .row-flex {
   display: flex;
   flex-wrap: wrap-reverse;
   align-items: center;
-  column-gap: 30%;
-  margin-right: 0%;
+  column-gap: 25%;
+  margin-right: 10vw;
+  margin-left: 10vw;
 }
 
 p.indexcopy {

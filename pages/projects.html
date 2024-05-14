@@ -7,6 +7,22 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="./styleproj.css">
+    <style>
+        img.cover {
+            height: 150px;
+            width: 100%;
+            object-position: 25% 45%;
+            object-fit: cover;
+            margin-top: 0%;
+            filter: grayscale();
+        }
+
+        img.cover:hover {
+            object-fit: cover;
+            filter: none;
+            transition: all 0.5s ease;
+        }
+    </style>
 </head>
 
 <body class="copy">
@@ -18,18 +34,33 @@
         <br>
 
         <div class="card-project">
-            <a class="inline" href="../pages/projects/tloudecons.html"><img src="../resources/images/tloucover.jpeg"
-                    style="height:150px; width: 100%; object-position: 25% 45%; object-fit: cover; margin-top:0%"></a>
+            <a class="inline" href="../pages/projects/tloudecons.html"><img class="cover"
+                    src="../resources/images/tloucover.jpeg"></a>
             <div class="container-project">
                 <a class="inline" href="../pages/projects/tloudecons.html">
-                    <p style="font-family: 'printveticaregular'; text-align:center; padding-bottom:5px; padding-left: 20px; padding-right: 20px;">[ paper ]
+                    <p
+                        style="font-family: 'printveticaregular'; text-align:center; padding-bottom:5px; padding-left: 20px; padding-right: 20px;">
+                        [ paper ]
                         Deconstruction of The Last of
                         Us</p>
                 </a>
             </div>
         </div>
+        <p style="margin-top:3vh"></p>
+        <div class="card-project">
+            <a class="inline" href="https://devfolio.co/projects/lessgitmatchgreater-6e54" target="_blank"><img class="cover"
+                    src="../resources/images/image.png"></a>
+            <div class="container-project">
+                <a class="inline" href="https://devfolio.co/projects/lessgitmatchgreater-6e54" target="_blank">
+                    <p
+                        style="font-family: 'printveticaregular'; text-align:center; padding-bottom:5px; padding-left: 20px; padding-right: 20px;">
+                        [ project ↗&#xFE0E; ]
+                        GitMatch: One stop destination to finding your perfect hackathon buddy. <br></p>
+                </a>
+            </div>
+        </div>
 
-        <p style="margin-top:3vh">
+        <p style="margin-top:3vh"></p>
         <br>
 
         <a class="main" href="../index.html">⁖ return to main page</a>

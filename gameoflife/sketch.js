@@ -7,9 +7,9 @@ function setup() {
     colorMode(HSB);
     cols = width / size;
     rows = height / size;
-
+    background('#f2f2f2')
     grid = new Grid();
-    
+
     /* let playButton = createButton("Play");
     playButton.position(0, height + 20);
     playButton.mousePressed(playGrid);
