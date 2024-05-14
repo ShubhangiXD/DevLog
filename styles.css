@@ -70,7 +70,8 @@ html[data-theme="dark"] {
   }
 }
 
-html, body {
+html,
+body {
   cursor: url('./resources/cursor.ico'), default;
   overflow-x: hidden;
 }
@@ -94,9 +95,8 @@ button.theme:hover {
 
 div.content {
   margin-top: 2vw;
-  margin-left: 1vh;
   position: relative;
-  left: 51%;
+  left: 50%;
   transform: translateX(-50%);
   width: 95%;
 }
@@ -122,6 +122,14 @@ p.index {
   margin-bottom: 2%;
 }
 
+.row-flex {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  column-gap: 30%;
+  margin-right: 0%;
+}
+
 p.indexcopy {
   /* index copy */
   font-family: "printveticaregular", Helvetica, Arial;
@@ -132,29 +140,25 @@ p.indexcopy {
   margin-bottom: 1.5em;
   font-style: normal;
   opacity: 80%;
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 
-img.imgintro {
-  width: 500px;
-  background: none;
-  border-radius: 3px;
-  filter: grayscale(100%);
-  margin-right: 1vh;
-}
 
-p.imgintro{
+
+p.imgintro {
   font-family: "printveticaregular", Helvetica, Arial;
-  font-size: 5rem;
+  font-size: 3em;
+  text-align: center;
 }
 
-p.introsub{
+p.introsub {
   font-family: "printveticaregular", Helvetica, Arial;
   opacity: 50%;
   font-size: smaller;
+  text-align: center;
 }
 
-p.time{
+p.time {
   font-family: "printveticaregular", Helvetica, Arial;
   text-align: center;
 }
@@ -435,10 +439,11 @@ button.btn.active {
 
 @keyframes rotation {
   from {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
+
   to {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
