@@ -115,10 +115,10 @@ div.indexbg {
 p.index {
   /* index 'prompts' */
   color: var(--header-color);
-  font-family: "printveticaregular", Helvetica, Arial;
+  font-family: "Dirtyline", Helvetica, Arial;
   font-style: bold;
-  font-size: 1.2rem;
-  color: #be84ce;
+  font-size: 1.5rem;
+  color: #a555b9;
   margin-bottom: 2%;
 }
 
@@ -206,7 +206,7 @@ body.copy {
   color: var(--header-color);
   font-family: "printveticaregular", Helvetica, Arial;
   font-size: 2rem;
-  color: #be84ce;
+  color: #b654d1;
 }
 
 .readtime {
@@ -435,10 +435,19 @@ button.btn.active {
 }
 
 @font-face {
-  font-family: "sitrus";
-  src: url("./fonts/DxSitrus-Expanded.otf") format("otf");
+  font-family: Sitrus;
+  src: url('./fonts/DxSitrus-Expanded.otf') format('opentype');
   font-weight: normal;
-  font-style: normal;
+}
+
+@font-face {
+  font-family: Magtis;
+  src: url("./fonts/Magtis-ExtraBold-free\ personal\ use.otf") format('opentype');
+}
+
+@font-face {
+  font-family: Dirtyline;
+  src: url("./fonts/Dirtyline\ 36daysoftype\ 2022.otf") format('opentype');
 }
 
 
